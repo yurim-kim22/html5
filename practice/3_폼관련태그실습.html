@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>폼관련태그실습</title>
+</head>
+<body>
+    <form>
+        <label for="name">고객명 : </label>
+        <input type="text" name="name" id="name">
+        <br>
+        <br>
+        <label for="phone">전화번호  : </label>
+        <input type="text" name="phone" id="phone">
+
+        <br>
+        <br>
+        <label for="email">E-mail  : </label>
+        <br>
+        <br>
+        <label for="pizza">피자 선택</label>
+        <select name="pizza">
+            <option value="">피자를 선택하세요</option>
+        </select>
+        <br>
+        <br>
+        <fieldset>
+            <legend>피자 사이즈</legend>
+
+            <input type="radio" name="small" id="samll" value="small" checked>
+            <label for="small">Small</label>
+            <br>
+            <br>
+            <input type="radio" name="medium" id="medium" value="medium">
+            <label for="medium">Medium</label>
+            <br>
+            <br>
+            <input type="radio" name="large" id="large" value="large">
+            <label for="large">large</label>
+            <br>
+            <br>
+        </fieldset>
+        <br>
+        <label>희망 배송 시간 : </label>
+        <input type="time" name="time" id="time">
+        <br>
+        <br>
+        <label>배송 시 요청사항 :</label>
+        <textarea id="" cols="20" rows="5"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="주문하기">
+    </form>
+</body>
+</html>

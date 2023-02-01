@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4_영역관련태그</title>
+    <style>
+        #div1 { background-color: red;}
+        #div2 { background-color: green;}
+        #div3 { background-color: yellow;}
+        #span1 { background-color: red;}
+        #span2 { background-color: green;}
+        #span3 { background-color: yellow;}
+    </style>
+</head>
+<body>
+    <h1>영역 관련 태그</h1>
+    <h2>div 태그와 span 태그의 차이</h2>
+
+    <h3>div 태그</h3>
+    <p>
+        div 태그 영역은 이미 존재하는 태그 다음 줄에 영역이 설정 된다. <br>
+        한 줄을 차지하고 공간을 수평으로 분할하는 block 형식이다.
+    </p>
+
+    <div id="div1">
+        첫 번째 영역
+    </div>
+    <div id="div2">
+        두 번째 영역<br>
+        첫 번째 영역 다음 줄에<br>
+        영역이 설정 됨
+    </div>
+    <div id="div3">
+        세 번째 영역<br>
+        두 번째 영역 다음 줄에<br>
+        영역이 설정 됨
+    </div>
+
+    <h3>span 태그</h3>
+    <p>
+        span 태그는 줄바꿈이 일어나지 않고 옆으로 영역이 설정 된다. <br>
+        공간을 수직으로 분할하는 inline 형식이다.
+    </p>
+
+    <span id="span1">첫 번째 영역</span>
+    <span id="span2">두 번째 영역</span>
+    <span id="span3">세 번째 영역</span>
+
+    <hr>
+
+    <h3>iframe</h3>
+    <p>
+        웹 문서 안에 다른 웹 페이지를 추가하는 태그이다. 
+        inline 형식이다.
+    </p>
+
+    <iframe width="600px" height="800px" src="1_글자관련태그.html"></iframe>
+    <iframe width="1080" height="608" src="https://www.youtube.com/embed/I-CZSehGd-I" title="피지컬 100이 이 영상을 신기해합니다. 헤비급 뚱보 강아지 똘이ㅋㅋㅋ반전 있음ㅣWhy Has This Dog Become SO FAT?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <hr>
+
+    <h1>시맨틱 태그</h1>
+
+    <header>
+        <h1>제목</h1>
+        <nav>
+            <ul>
+                <li><a>HOME</a></li>
+                <li><a>게시판</a></li>
+                <li><a>사진첩</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <article> "컨텐츠 내용" </article>
+        <article> "컨텐츠 내용" </article>
+    </section>
+    <footer>
+        사업번호, 사업자 주소, 연락처, 저작권, 링크 모듬
+    </footer>
+
+</body>
+</html>
